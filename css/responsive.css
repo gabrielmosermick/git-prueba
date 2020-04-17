@@ -1,0 +1,64 @@
+
+/************ MEDIA QUERIES / RESPONSIVIDAD *************/
+
+/** Monitores */
+@media only screen and (max-width: 1080px) {
+    
+    .contenedor-flex {
+        background: red;
+    }
+
+}
+
+
+/** Navegadores */
+@media only screen and (max-width: 980px) {
+    
+    .contenedor-flex {
+        background: red;
+    }
+
+    .column-flex {
+        flex: 32%;
+    }
+}
+
+
+/** Tablets o moviles tumbados */
+@media only screen and (max-width: 780px) {
+        
+    .mobile-hidden {
+        display:none;
+    }
+
+    .contenedor-flex {
+        align-content:flex-start;
+        background: red;
+    }
+
+    .column {
+        width:48%;
+    }
+
+    .column-flex {
+        flex: 49%;
+    }
+}
+
+/** Móviles */
+@media only screen and (max-width: 480px) {
+    
+    .contenedor-flex {
+        background: blue;
+    }
+
+    
+    .column {
+        width:98%;
+    }
+
+    .column-flex {
+        flex: 99%;
+    }
+}
+
